@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Abhijit</string>
-    <string name="app_title">elaachi</string>
+    <string name="app_name">TaskDemo</string>
+    <string name="app_title">TaskDemo</string>
     <string name="map_api_key">AIzaSyAJISiC96V_wCTr2rpOdB4pkrMAK5ybiuA</string>
 
     <string name="txt_sign_up">Hi,get started</string>
