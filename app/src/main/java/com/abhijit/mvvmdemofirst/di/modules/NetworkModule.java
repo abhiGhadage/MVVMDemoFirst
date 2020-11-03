@@ -24,8 +24,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
 public class NetworkModule {
-    private static final String BASE_URL = "http://appgrn.lodhagroup.com/";
-    public static final String IMAGE_BASE_URL = "https://s3.ap-south-1.amazonaws.com/elaachi-dev-team-bucket/";
+    private static final String BASE_URL = "http://appgrn.l";
+    public static final String IMAGE_BASE_URL = "https://s3.ap-s";
     public static final int TIPSGO_EMPTY_HTTP_CODE = 404;
 
     @Provides

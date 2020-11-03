@@ -32,6 +32,7 @@ public class ViewCardActivity extends BaseActivity<ViewCardViewModel> {
     private ViewCardViewModel viewModel;
 
     @BindView(R.id.txt_stud_name) TextView txt_stud_name;
+    @BindView(R.id.txt_stud_phone) TextView txt_stud_phone;
     @BindView(R.id.txt_stud_rollNo) TextView txt_stud_rollNo;
     @BindView(R.id.txt_stud_gender) TextView txt_stud_gender;
     @BindView(R.id.txt_stud_class) TextView txt_stud_class;
@@ -55,13 +56,13 @@ public class ViewCardActivity extends BaseActivity<ViewCardViewModel> {
 
         if (listViewModel != null) {
             txt_stud_name.setText(listViewModel.getName());
+            txt_stud_phone.setText(listViewModel.getPhone());
             txt_stud_rollNo.setText(listViewModel.getRollNo());
             txt_stud_class.setText(listViewModel.getClassDiv());
             txt_stud_gender.setText(listViewModel.getGender());
             txt_stud_add.setText(listViewModel.getAddress());
 
-            Picasso.get().load(listViewModel
-                    .getPhone())
+            Picasso.get().load(listViewModel.getImages())
                     .placeholder(R.drawable.id_profil)
                     .error(R.drawable.id_profil)
                     .into(img_view);

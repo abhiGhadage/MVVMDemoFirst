@@ -45,8 +45,7 @@ public class ListViewAdapter extends RecyclerView.Adapter<ListViewAdapter.MyView
         holder.txt_stud_name.setText(name);
         holder.txt_stud_rollNo.setText(listViewModel.getRollNo());
         holder.txt_stud_class.setText(listViewModel.getClassDiv());
-        Picasso.get().load(listViewModel
-                .getPhone())
+        Picasso.get().load(listViewModel.getImages())
                 .placeholder(R.drawable.id_profil)
                 .error(R.drawable.id_profil)
                 .into(holder.img_the_face_photo);
