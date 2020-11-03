@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D2D2D2</color>
+    <color name="colorTranspernet">@android:color/transparent</color>
+    <color name="colorAppBack">#f8f6f5 </color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackgroundWhite">#F5F5F5</color>
+    <color name="colorBlack">#292929</color>
+    <color name="colorBackBlack">#292B2A</color>
+    <color name="colorCardBack">#3C3E3D</color>
+    <color name="colorThickBack">#484848</color>
+    <color name="colorGray">#D2D2D2</color>
+    <color name="colorButtonGray">#EDF0F4</color>
+    <color name="colorDarkGray">#ABB9C2</color>
+    <color name="colorChatBox">#F3F5F9</color>
+    <color name="colorOrange">#FF7533</color>
+    <color name="colorYellow">#FFA833</color>
+    <color name="colorfbBlue">#395799</color>
+    <color name="colorGoggleRed">#DC4E41</color>
+    <color name="colorPink">#9833FF</color>
+    <color name="colorThinkPink">#8A9EE8</color>
+    <color name="colorFoodYello">#FFAB33</color>
+    <color name="colorFoodBlue">#336DFF</color>
+    <color name="colorFoodOrange">#FF7133</color>
+    <color name="colorThickBlue">#33C3FF</color>
+    <color name="colorGreen">#86FA57</color>
+    <color name="colorDarkGreen">#22842a</color>
+    <color name="colorLightGreen">#118767</color>
+
+</resources>
